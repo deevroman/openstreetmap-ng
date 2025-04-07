@@ -63,6 +63,6 @@ jobs:
         run: |
           nix-shell --pure --run "dev-start"
 
-      - name: Run tests
+      - name: Run tests (fictional change for trigger CI)
         run: |
           nix-shell --pure --run "run-tests --extended --term"
